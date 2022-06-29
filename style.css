@@ -227,49 +227,6 @@ label {
   transform: translateX(24px);
 }
 
-/*-----------------------------*/
-
-.label1 {
-  background-color: #ff887a;
-  display: flex;
-  position: relative;
-  height: 26px;
-  width: 50px;
-  border-radius: 50px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-}
-
-.fa-pizza-slice {
-  color: #f9f9f9;
-}
-
-.fa-mug-hot {
-  color: #f9f9f9;
-}
-
-.ball1 {
-  background-color: #dd6258;
-  height: 22.5px;
-  width: 22.5px;
-  top: 2px;
-  left: 2px;
-  border-radius: 50%;
-  position: absolute;
-  transition: transform 0.15s linear;
-}
-
-.checkbox1 {
-  position: absolute;
-  opacity: 0;
-}
-
-.checkbox1:checked + .label1 .ball1 {
-  transform: translateX(24px);
-}
-
-
 /* design dei pulsanti ↑
 --------------------------------
 darkmode ↓
