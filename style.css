@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Corben:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* specifiche stilistiche ↑
 --------------------------------
@@ -13,46 +14,77 @@ body {
 
 .inv_logo {
   width: 100%;
-  border: 1px solid #000;
+  border: none;
 }
 
 .logo {
-  width: 120px;
-  border: 1px solid #000;
+  width: 82%;
+  height: 90px;
+  border: none;
+  padding-left: 18%;
+  padding-bottom: 4vh;
 }
 
 .autore1 {
   position: relative;
-  border: 1px solid #000;
+  border: none;
   width: 50%;
-  padding-right: 2%;
+  padding-left: 18%;
+  padding-right: 4%;
+  font-family: 'Corben';
+  font-size: 16pt;
+  color: #dd6258;
+  border: none;
 }
 .autore2 {
   position: relative;
-  border: 1px solid #000;
+  border: none;
   width: 50%;
+  font-family: 'Montserrat';
+  font-size: 12pt;
+  font-weight: thin;
+  color: #111;
 }
 
 .middle {
-  border: 1px solid #000;
-  width: 100%;
+  border: none;
+  width: 82%;
+  padding-left: 18%;
+  padding-top: 4%;
+  border: none;
 }
 
-.descrizione {
-  border: 1px solid #000;
+.inv_descrizione {
   width: 15%;
   position: fixed;
   bottom: 1%;
 }
 
+.descrizione {
+  border: none;
+  width: 82%;
+  padding-left: 18%;
+  font-family: 'Montserrat';
+  font-size: 11pt;
+  font-weight: thin;
+}
+
+h1 {
+  font-family: 'Corben';
+  font-size: 16pt;
+  color: #dd6258;
+}
+
 .img_centrale {
   border: 1px solid #000;
   width: 65%;
-  height: 100vh;
+  height: 94vh;
+  margin-top: 6vh;
+  display: block;
 }
 
 img {
-  max-height: 100vh;
+  max-height: 94vh;
   max-width: 100%;
 }
 
@@ -74,8 +106,10 @@ img {
 }
 
 .colonna1 {
-  border: 1px solid #C0C0C0;
+  border: none;
   width: 15%;
+  height: 90vh;
+  margin-top: 0vh;
   position: fixed;
 }
 
@@ -84,6 +118,8 @@ img {
   width: 15%;
   position: fixed;
   right: 1%;
+  height: 90vh;
+  margin-top: 0vh;
 }
 
 .colonna3_1 {
@@ -104,24 +140,27 @@ design del menu ↓
 */
 
 .menu {
-  width: 80%;
+  width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  min-width: 180px;
-  
+  min-width: 150px;
+
 }
 
 .item {
-  border-top: 1px solid #18dcff;
+  border-top: none;
   overflow: hidden;
 }
 
 .btn {
   display: block;
-  padding: 16px 20px;
-  background: #18c0eb;
-  color: white;
+  padding: 12px 0px;
+  color: #ff887a;
   position: relative;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 14pt;
+  border: none;
 }
 
 .btn::before {
@@ -129,18 +168,14 @@ design del menu ↓
   position: absolute;
   width: 14px;
   height: 14px;
-  background: #17c0eb;
+  background: none;
   left: 20px;
   bottom: -7px;
   transform: rotate(45deg);
 }
 
-.btn i {
-  margin-right: 10px;
-}
-
 .smenu {
-  background: pink;
+  background: none;
   overflow: hidden;
   transition: max-height 0.3s;
   max-height: 0;
@@ -148,10 +183,15 @@ design del menu ↓
 
 .smenu a {
   display: block;
-  padding: 16px 26px;
-  color: white;
-  margin: 4px 0;
+  padding: 8px 26px;
+  padding-bottom: 12px;
+  color: #111;
+  margin: 0px 0;
   position: relative;
+  font-family: 'Montserrat';
+  font-weight: thin;
+  font-size: 11pt;
+  border: none;
 }
 
 .smenu a::before {
@@ -159,7 +199,7 @@ design del menu ↓
   position: absolute;
   width: 6px;
   height: 100%;
-  background: #18dcff;
+  background: none;
   left: 0;
   top: 0;
   transition: .3s;
@@ -234,5 +274,5 @@ body.dark {
 
 /* darkmode ↑
 --------------------------------
- ↓
+↓
 */
