@@ -28,7 +28,7 @@ checkbox.addEventListener('change', () => {
 
 /* pulsante darkmode ↑
 --------------------------------
-pulsante lingua ↓
+ ↓
 */
 
 }
