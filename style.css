@@ -1,8 +1,3 @@
-<style>
-@media {
-  (prefers-color-scheme: dark)
-  /*qui andranno inserite le specifiche di stile che vai a mettere nel darkmode button*/
-}
 
 /* specifiche stilistiche ↑
 --------------------------------
@@ -288,5 +283,3 @@ body.dark {
 --------------------------------
  ↓
 */
-
-</style>
