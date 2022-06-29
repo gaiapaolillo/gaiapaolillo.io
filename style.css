@@ -62,11 +62,6 @@ img {
   float: right;
 }
 
-.lingua {
-  float: left;
-  margin-right: 5%;
-}
-
 .mode {
   float: left;
 }
@@ -75,6 +70,7 @@ img {
   border: 1px solid #000;
   width: 90%;
   float: right;
+  text-align: right;
 }
 
 .colonna1 {
@@ -209,10 +205,10 @@ label {
 
 .ball {
   background-color: #ff887a;
-  height: 22px;
-  width: 22px;
-  top: 2px;
-  left: 2px;
+  height: 18px;
+  width: 18px;
+  top: 4px;
+  left: 4px;
   border-radius: 50%;
   position: absolute;
   transition: transform 0.15s linear;
