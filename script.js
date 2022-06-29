@@ -19,7 +19,7 @@ pulsante darkmode ↓
 */
 
 checkbox = document.getElementById('checkbox');
-
+console.log(checkbox);
 checkbox.addEventListener('change', () => {
   //qui va inserita la funzione per cambiare il tema//
   document.body.classList.toggle('dark');
@@ -29,10 +29,3 @@ checkbox.addEventListener('change', () => {
 --------------------------------
 pulsante lingua ↓
 */
-
-var checkbox = document.getElementById('checkbox1');
-  
-checkbox.addEventListener('change', () => {
-  //qui va inserita la funzione per cambiare il tema//
-  document.body.classList.toggle('eng');
-});
