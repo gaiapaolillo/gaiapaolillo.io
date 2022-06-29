@@ -70,12 +70,12 @@ body {
 
 h1 {
   font-family: 'Corben';
-  font-size: 16pt;
+  font-size: 12pt;
   color: #dd6258;
 }
 
 .img_centrale {
-  border: 1px solid #000;
+  border: none;
   width: 65%;
   height: 94vh;
   margin-top: 6vh;
@@ -88,7 +88,7 @@ img {
 }
 
 .pulsanti {
-  border: 1px solid #000;
+  border: none;
   width: 90%;
   float: right;
 }
@@ -270,6 +270,19 @@ darkmode ↓
 body.dark {
   background-color: #202124;
 }
+
+body.dark .autore2 {
+  color: #f9f9f9;
+}
+
+body.dark .smenu a {
+  color: #f9f9f9;
+}
+
+body.dark p {
+  color: #f9f9f9;
+}
+
 
 /* darkmode ↑
 --------------------------------
