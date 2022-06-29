@@ -1,4 +1,3 @@
-<script>
 var acc = document.getElementsByClassName("btn");
 var i;
 
@@ -37,4 +36,3 @@ checkbox.addEventListener('change', () => {
   //qui va inserita la funzione per cambiare il tema//
   document.body.classList.toggle('eng');
 });
-</script>
