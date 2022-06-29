@@ -1,3 +1,4 @@
+window.onload=function(){
 var acc = document.getElementsByClassName("btn");
 var i;
 
@@ -29,3 +30,5 @@ checkbox.addEventListener('change', () => {
 --------------------------------
 pulsante lingua ↓
 */
+
+}
