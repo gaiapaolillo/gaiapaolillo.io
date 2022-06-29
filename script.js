@@ -18,7 +18,7 @@ for (i = 0; i < acc.length; i++) {
 pulsante darkmode ↓
 */
 
-checkbox = document.getElementById('checkbox');
+const checkbox = document.getElementById('checkbox');
 console.log(checkbox);
 checkbox.addEventListener('change', () => {
   //qui va inserita la funzione per cambiare il tema//
