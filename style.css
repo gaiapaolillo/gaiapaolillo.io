@@ -95,8 +95,9 @@ img {
 
 .pulsanti {
   border: none;
-  width: 90%;
+  width: 87%;
   float: right;
+  padding-right: 13%;
 }
 
 .mode {
@@ -105,9 +106,10 @@ img {
 
 .inv_credenziali {
   border: none;
-  width: 90%;
+  width: 87%;
   float: right;
   text-align: right;
+  padding-right: 13%;
 }
 
 .colonna1 {
@@ -149,7 +151,6 @@ design del menu ↓
   border-radius: 8px;
   overflow: hidden;
   min-width: 150px;
-
 }
 
 .item {
