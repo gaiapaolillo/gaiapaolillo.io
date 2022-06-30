@@ -98,7 +98,7 @@ img {
 }
 
 .inv_credenziali {
-  border: 1px solid #000;
+  border: none;
   width: 90%;
   float: right;
   text-align: right;
@@ -283,8 +283,32 @@ body.dark p {
   color: #f9f9f9;
 }
 
+body.dark .credenziali a {
+  color: #f9f9f9;
+}
 
 /* darkmode ↑
 --------------------------------
-↓
+icone social e credenziali↓
 */
+
+.icone_social {
+  border: none;
+  padding-top: 4%;
+}
+
+.fa-instagram {
+  padding-left: 2%;
+  color: #dd6258;
+}
+
+.fa-facebook {
+  color: #dd6258;
+}
+
+.credenziali a {
+  font-family: 'Comfortaa';
+  font-size: 11pt;
+  font-weight: light;
+  color: #111;
+}
