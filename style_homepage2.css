@@ -33,7 +33,7 @@ body {
   padding-right: 4%;
   font-family: 'Corben';
   font-size: 16pt;
-  color: #dd6258;
+  color: #50a3ba;
   border: none;
 }
 .autore2 {
@@ -72,7 +72,7 @@ body {
 h1 {
   font-family: 'Corben';
   font-size: 12pt;
-  color: #dd6258;
+  color: #50a3ba;
 }
 
 .img_centrale {
@@ -151,6 +151,7 @@ design del menu ↓
   border-radius: 8px;
   overflow: hidden;
   min-width: 150px;
+
 }
 
 .item {
@@ -161,7 +162,7 @@ design del menu ↓
 .btn {
   display: block;
   padding: 12px 0px;
-  color: #ff887a;
+  color: #6ec3e2;
   position: relative;
   font-family: 'Comfortaa';
   font-weight: bold;
@@ -230,7 +231,7 @@ label {
 }
 
 .label {
-  background-color: #dd6258;
+  background-color: #50a3ba;
   display: flex;
   position: relative;
   height: 26px;
@@ -250,7 +251,7 @@ label {
 }
 
 .ball {
-  background-color: #ff887a;
+  background-color: #6ec3e2;
   height: 18px;
   width: 18px;
   top: 4px;
@@ -295,7 +296,7 @@ body.dark .credenziali a {
 }
 
 body.dark .credenziali a:hover {
-  color: #dd6258;
+  color: #50a3ba;
 }
 
 /* darkmode ↑
@@ -310,12 +311,12 @@ icone social e credenziali↓
 
 .fa-instagram {
   padding-left: 2%;
-  color: #dd6258;
+  color: #50a3ba;
   font-size: 14pt;
 }
 
 .fa-facebook {
-  color: #dd6258;
+  color: #50a3ba;
   font-size: 14pt;
 }
 
@@ -341,7 +342,7 @@ hover ↓
 }
 
 .btn:hover {
-  color: #dd6258;
+  color: #50a3ba;
   text-decoration: underline;
 }
 
@@ -350,7 +351,7 @@ hover ↓
 }
 
 .credenziali a:hover {
-  color: #dd6258;
+  color: #50a3ba;
 }
 
 .fa-facebook:hover {
