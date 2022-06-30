@@ -295,7 +295,6 @@ icone social e credenziali↓
 .icone_social {
   border: none;
   padding-top: 4%;
-  font-size: 14pt;
 }
 
 .fa-instagram {
@@ -306,6 +305,7 @@ icone social e credenziali↓
 
 .fa-facebook {
   color: #dd6258;
+  font-size: 14pt;
 }
 
 .credenziali a {
