@@ -10,6 +10,7 @@ body {
   margin: 0 0 0 0;
   background-color: #f9f9f9;
   border: none;
+  background-attachment: fixed;
 }
 
 .inv_logo {
@@ -77,13 +78,18 @@ h1 {
 .img_centrale {
   border: none;
   width: 65%;
-  height: 94vh;
+  height: 91vh;
   margin-top: 6vh;
-  display: block;
+  bottom: 1%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
 }
 
 img {
-  max-height: 94vh;
+  max-height: 91vh;
   max-width: 100%;
 }
 
@@ -113,7 +119,7 @@ img {
 }
 
 .colonna3 {
-  border: 1px solid #C0C0C0;
+  border: none;
   width: 15%;
   position: fixed;
   right: 1%;
@@ -122,7 +128,7 @@ img {
 }
 
 .colonna3_1 {
-  border: 1px solid #C0C0C0;
+  border: none;
   width: 15%;
   position: fixed;
   right: 1%;
@@ -287,6 +293,10 @@ body.dark .credenziali a {
   color: #f9f9f9;
 }
 
+body.dark .credenziali a:hover {
+  color: #dd6258;
+}
+
 /* darkmode ↑
 --------------------------------
 icone social e credenziali↓
@@ -313,4 +323,39 @@ icone social e credenziali↓
   font-size: 11pt;
   font-weight: light;
   color: #111;
+}
+
+/* icone social e credenziali ↑
+--------------------------------
+hover ↓
+*/
+
+.autore1:hover {
+  opacity: 0.7;
+}
+
+.autore2:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.btn:hover {
+  color: #dd6258;
+  text-decoration: underline;
+}
+
+.smenu a:hover {
+  font-weight: bold;
+}
+
+.credenziali a:hover {
+  color: #dd6258;
+}
+
+.fa-facebook:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram:hover {
+  opacity: 0.7;
 }

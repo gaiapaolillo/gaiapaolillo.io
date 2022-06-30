@@ -28,7 +28,5 @@ checkbox.addEventListener('change', () => {
 
 /* pulsante darkmode ↑
 --------------------------------
- ↓
 */
-
 }
