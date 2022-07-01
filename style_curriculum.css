@@ -88,9 +88,33 @@ h1 {
   background-attachment: fixed;
 }
 
-img {
+.inv_curriculum {
+  border: none;
   max-height: 91vh;
-  max-width: 100%;
+  max-width: 60%;
+}
+
+.nuvola_autore {
+  max-height: 250px;
+  max-width: 250px;
+  border: none;
+}
+
+.nome {
+  font-family: 'Corben';
+  font-size: 30pt;
+}
+
+.biografia {
+  font-family: 'Montserrat';
+  font-size: 13pt;
+  font-weight: light;
+  padding-bottom: 5%;
+}
+
+.Ai, .Ps, .Id, .O {
+  border: 1px none;
+  max-height: 50px;
 }
 
 .pulsanti {
