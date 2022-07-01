@@ -361,3 +361,52 @@ hover ↓
 .fa-instagram:hover {
   opacity: 0.7;
 }
+
+#tooltip:hover {
+  color: #50a3ba;
+}
+
+/* hover ↑
+--------------------------------
+contatti ↓
+*/
+
+#tooltip {
+  font-family: 'Comfortaa';
+  font-size: 11pt;
+  font-weight: light;
+  color: #111;
+  position: relative;
+  cursor: pointer;
+}
+
+#tooltipText {
+  text-align: right;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: #50a3ba;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+#tooltipText::before {
+  content: "";
+  position: absolute;
+  left: 75%;
+  top: 100%;
+  transform: translateX(-50%);
+  border: 10px solid;
+  border-color: #50a3ba #50a3ba #50a3ba00 #50a3ba00;
+}
+
+#tooltip:hover #tooltipText {
+  top: -450%;
+  visibility: visible;
+  opacity: 1;
+}
