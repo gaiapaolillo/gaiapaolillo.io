@@ -97,17 +97,17 @@ h1 {
 .nuvola_autore {
   max-height: 250px;
   max-width: 250px;
-  border: 1px none;
+  border: none;
 }
 
 .nome {
   font-family: 'Corben';
-  font-size: 30pt;
+  font-size: 23pt;
 }
 
 .biografia {
   font-family: 'Montserrat';
-  font-size: 13pt;
+  font-size: 10pt;
   font-weight: light;
   padding-bottom: 5%;
 }

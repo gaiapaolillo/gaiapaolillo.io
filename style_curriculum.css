@@ -113,7 +113,7 @@ h1 {
 }
 
 .Ai, .Ps, .Id, .O {
-  border: 1px none;
+  border: none;
   max-height: 50px;
 }
 
