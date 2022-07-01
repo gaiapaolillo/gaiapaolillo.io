@@ -299,6 +299,10 @@ body.dark .credenziali a:hover {
   color: #50a3ba;
 }
 
+body.dark .contatti {
+  color: #f9f9f9;
+}
+
 /* darkmode ↑
 --------------------------------
 icone social e credenziali↓
