@@ -58,6 +58,7 @@ body {
   width: 15%;
   position: fixed;
   bottom: 1%;
+  opacity: 0;
 }
 
 .descrizione {
@@ -112,9 +113,73 @@ h1 {
   padding-bottom: 5%;
 }
 
-.Ai, .Ps, .Id, .O {
+.gruppo_iconcine {
   border: none;
-  max-height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Ai {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-image: url("immagini/ai\ gaia\ prima.png");
+  background-position: center;
+  background-size: cover;
+  color: #0000;
+  margin-right: 2%;
+}
+
+.Ai:hover {
+  background-image: url("immagini/ai\ gaia.gif");
+  transition: 0.4s;
+}
+
+.Ps {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-image: url("immagini/ps\ gaia\ prima.png");
+  background-position: center;
+  background-size: cover;
+  color: #0000;
+  margin-right: 2%;
+}
+
+.Ps:hover {
+  background-image: url("immagini/ps\ gaia.gif");
+  transition: 0.4s;
+}
+
+.Id {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-image: url("immagini/id\ gaia\ prima.png");
+  background-position: center;
+  background-size: cover;
+  color: #0000;
+  margin-right: 2%;
+}
+
+.Id:hover {
+  background-image: url("immagini/id\ gaia.gif");
+  transition: 0.4s;
+}
+
+.O {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-image: url("immagini/off\ gaia\ prima.png");
+  background-position: center;
+  background-size: cover;
+  color: #0000;
+}
+
+.O:hover {
+  background-image: url("immagini/off\ gaia.gif");
+  transition: 0.4s;
 }
 
 .pulsanti {
