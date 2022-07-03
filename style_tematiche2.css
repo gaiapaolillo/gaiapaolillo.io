@@ -402,6 +402,13 @@ hover ↓
 contatti ↓
 */
 
+.curriculum {
+  font-family: 'Comfortaa';
+  font-size: 12px;
+  font-weight: light;
+  color: #111;
+}
+
 #tooltip {
   font-family: 'Comfortaa';
   font-size: 12px;
