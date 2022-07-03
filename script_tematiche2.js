@@ -248,5 +248,27 @@ $(document).ready(function(){
     $(".fiori").css("transition", "0.4s");
   });
 });
+
+$(document).ready(function(){
+  $(".guarracinofoto").mouseover(function(){
+    $(".guarracino").css("opacity", "100%");
+    $(".guarracino").css("transition", "0.4s");
+  });
+  $(".guarracinofoto").mouseout(function(){
+    $(".guarracino").css("opacity", "0%");
+    $(".guarracino").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".mitologiafoto").mouseover(function(){
+    $(".mitologia").css("opacity", "100%");
+    $(".mitologia").css("transition", "0.4s");
+  });
+  $(".mitologiafoto").mouseout(function(){
+    $(".mitologia").css("opacity", "0%");
+    $(".mitologia").css("transition", "0.4s");
+  });
+});
    
  }
