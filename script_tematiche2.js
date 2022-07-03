@@ -100,7 +100,7 @@ $(document).ready(function(){
     $(".cddue").css("opacity", "100%");
     $(".cddue").css("transition", "0.4s");
   });
-  $(".cdfoto").mouseout(function(){
+  $(".cdduefoto").mouseout(function(){
     $(".cddue").css("opacity", "0%");
     $(".cddue").css("transition", "0.4s");
   });
@@ -210,7 +210,7 @@ $(document).ready(function(){
     $(".partenope").css("opacity", "100%");
     $(".partenope").css("transition", "0.4s");
   });
-  $(".partenope").mouseout(function(){
+  $(".partenopefoto").mouseout(function(){
     $(".partenope").css("opacity", "0%");
     $(".partenope").css("transition", "0.4s");
   });
