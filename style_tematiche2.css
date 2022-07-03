@@ -353,7 +353,7 @@ icone social e credenziali↓
 
 .credenziali a {
   font-family: 'Comfortaa';
-  font-size: 11pt;
+  font-size: 12px;
   font-weight: light;
   color: #111;
 }
@@ -404,7 +404,7 @@ contatti ↓
 
 #tooltip {
   font-family: 'Comfortaa';
-  font-size: 15px;
+  font-size: 12px;
   font-weight: light;
   color: #111;
   position: relative;
