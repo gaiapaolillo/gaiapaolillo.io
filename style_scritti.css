@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Corben:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* specifiche stilistiche ↑
+--------------------------------
+struttura del sito ↓
+*/
+
+
+body {
+  margin: 0 0 0 0;
+  background-color: #f9f9f9;
+  border: none;
+  background-attachment: fixed;
+}
+
+.inv_logo {
+  width: 100%;
+  border: none;
+}
+
+.logo {
+  width: 82%;
+  border: none;
+  padding-left: 18%;
+  padding-bottom: 4vh;
+}
+
+.autore1 {
+  position: relative;
+  border: none;
+  width: 50%;
+  padding-left: 18%;
+  padding-right: 4%;
+  font-family: 'Corben';
+  font-size: 18px;
+  color: #dd6258;
+  border: none;
+}
+.autore2 {
+  position: relative;
+  border: none;
+  width: 50%;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: thin;
+  color: #111;
+}
+
+.middle {
+  border: none;
+  width: 82%;
+  padding-left: 18%;
+  padding-top: 4%;
+  border: none;
+}
+
+.inv_descrizione {
+  width: 15%;
+  position: fixed;
+  bottom: 1%;
+}
+
+.descrizione {
+  border: none;
+  width: 82%;
+  padding-left: 18%;
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: thin;
+}
+
+h1 {
+  font-family: 'Corben';
+  font-size: 16px;
+  color: #dd6258;
+}
+
+.img_centrale {
+  border: none;
+  width: 65%;
+  height: 91vh;
+  margin-top: 6vh;
+  bottom: 1%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+img {
+  max-height: 91vh;
+  max-width: 100%;
+}
+
+.pulsanti {
+  border: none;
+  width: 88%;
+  float: right;
+  padding-right: 12%;
+}
+
+.mode {
+  float: right;
+}
+
+.inv_credenziali {
+  border: none;
+  width: 88%;
+  float: right;
+  text-align: right;
+  padding-right: 12%;
+}
+
+.colonna1 {
+  border: none;
+  width: 15%;
+  height: 90vh;
+  margin-top: 0vh;
+  position: fixed;
+}
+
+.colonna3 {
+  border: none;
+  width: 15%;
+  position: fixed;
+  right: 1%;
+  height: 90vh;
+  margin-top: 0vh;
+}
+
+.colonna3_1 {
+  border: none;
+  width: 15%;
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* struttura sito ↑
+--------------------------------
+design del menu ↓
+*/
+
+.menu {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 150px;
+}
+
+.item {
+  border-top: none;
+  overflow: hidden;
+}
+
+.btn {
+  display: block;
+  padding: 12px 0px;
+  color: #ff887a;
+  position: relative;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: none;
+  left: 20px;
+  bottom: -7px;
+  transform: rotate(45deg);
+}
+
+.smenu {
+  background: none;
+  overflow: hidden;
+  transition: max-height 0.3s;
+  max-height: 0;
+}
+
+.smenu a {
+  display: block;
+  padding: 8px 26px;
+  padding-bottom: 12px;
+  color: #111;
+  margin: 0px 0;
+  position: relative;
+  font-family: 'Montserrat';
+  font-weight: thin;
+  font-size: 12px;
+  border: none;
+}
+
+.smenu a::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: none;
+  left: 0;
+  top: 0;
+  transition: .3s;
+  opacity: 0;
+}
+
+.smenu a:hover::before {
+  opacity: 1;
+}
+
+.item:target .smenu {
+  max-height: 10em;
+}
+
+/* design del menu ↑
+--------------------------------
+design dei pulsanti ↓
+*/
+
+label {
+  box-sizing: border-box;
+}
+
+.label {
+  background-color: #dd6258;
+  display: flex;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  border-radius: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.fa-moon {
+  color: #f9f9f9;
+}
+
+.fa-sun {
+  color: #f9f9f9;
+}
+
+.ball {
+  background-color: #ff887a;
+  height: 18px;
+  width: 18px;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  position: absolute;
+  transition: transform 0.15s linear;
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+/* design dei pulsanti ↑
+--------------------------------
+darkmode ↓
+*/
+
+body.dark {
+  background-color: #202124;
+}
+
+body.dark .autore2 {
+  color: #f9f9f9;
+}
+
+body.dark .smenu a {
+  color: #f9f9f9;
+}
+
+body.dark p {
+  color: #f9f9f9;
+}
+
+body.dark .credenziali a {
+  color: #f9f9f9;
+}
+
+body.dark .credenziali a:hover {
+  color: #dd6258;
+}
+
+body.dark .contatti {
+  color: #f9f9f9;
+}
+
+/* darkmode ↑
+--------------------------------
+icone social e credenziali↓
+*/
+
+.icone_social {
+  border: none;
+  padding-top: 4%;
+}
+
+.fa-instagram {
+  padding-left: 2%;
+  color: #dd6258;
+  font-size: 14pt;
+}
+
+.fa-facebook {
+  color: #dd6258;
+  font-size: 14pt;
+}
+
+.credenziali a {
+  font-family: 'Comfortaa';
+  font-size: 12px;
+  font-weight: light;
+  color: #111;
+}
+
+/* icone social e credenziali ↑
+--------------------------------
+hover ↓
+*/
+
+.autore1:hover {
+  opacity: 0.7;
+}
+
+.autore2:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.btn:hover {
+  color: #dd6258;
+  text-decoration: underline;
+}
+
+.smenu a:hover {
+  font-weight: bold;
+}
+
+.credenziali a:hover {
+  color: #dd6258;
+}
+
+.fa-facebook:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram:hover {
+  opacity: 0.7;
+}
+
+#tooltip:hover {
+  color: #dd6258;
+}
+
+/* hover ↑
+--------------------------------
+contatti ↓
+*/
+
+#tooltip {
+  font-family: 'Comfortaa';
+  font-size: 12px;
+  font-weight: light;
+  color: #111;
+  position: relative;
+  cursor: pointer;
+}
+
+#tooltipText {
+  text-align: right;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: #dd6258;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+#tooltipText::before {
+  content: "";
+  position: absolute;
+  left: 75%;
+  top: 100%;
+  transform: translateX(-50%);
+  border: 10px solid;
+  border-color: #dd6258 #dd6258 #dd625800 #dd625800;
+}
+
+#tooltip:hover #tooltipText {
+  top: -450%;
+  visibility: visible;
+  opacity: 1;
+}
