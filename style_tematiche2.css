@@ -54,28 +54,11 @@ body {
   border: none;
 }
 
-.inv_altramarea {
-  width: 15%;
-  position: fixed;
-  bottom: 1%;
-  opacity: 0;
-}
-
-.altramarea {
-  border: none;
-  width: 82%;
-  padding-left: 18%;
-  font-family: 'Montserrat';
-  font-size: 10pt;
-  font-weight: thin;
-  opacity: 0%;
-}
-
 .inv_altramarea, .inv_cd, .inv_cddue, .inv_cuore, .inv_killer, .inv_killerdue, .inv_neiwai, .inv_neiwaidue, .inv_rinascita, .inv_natale, .inv_pecora, .inv_pecoradue, .inv_partenope, .inv_lola, .inv_sarto, .inv_fiori, .inv_guarracino, .inv_mitologia {
   width: 15%;
   position: fixed;
   bottom: 1%;
-  opacity: 0;
+
 }
 
 .altramarea, .cd, .cddue, .cuore, .killer, .killerdue, .neiwai, .neiwaidue, .rinascita, .natale, .pecora, .pecoradue, .partenope, .lola, .sarto, .fiori, .guarracino, .mitologia {
