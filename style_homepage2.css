@@ -32,7 +32,7 @@ body {
   padding-left: 18%;
   padding-right: 4%;
   font-family: 'Corben';
-  font-size: 16pt;
+  font-size: 18px;
   color: #50a3ba;
   border: none;
 }
@@ -41,7 +41,7 @@ body {
   border: none;
   width: 50%;
   font-family: 'Montserrat';
-  font-size: 12pt;
+  font-size: 14px;
   font-weight: thin;
   color: #111;
 }
@@ -65,13 +65,13 @@ body {
   width: 82%;
   padding-left: 18%;
   font-family: 'Montserrat';
-  font-size: 10pt;
+  font-size: 13pt;
   font-weight: thin;
 }
 
 h1 {
   font-family: 'Corben';
-  font-size: 12pt;
+  font-size: 16px;
   color: #50a3ba;
 }
 
@@ -166,7 +166,7 @@ design del menu ↓
   position: relative;
   font-family: 'Comfortaa';
   font-weight: bold;
-  font-size: 14pt;
+  font-size: 15px;
   border: none;
 }
 
@@ -197,7 +197,7 @@ design del menu ↓
   position: relative;
   font-family: 'Montserrat';
   font-weight: thin;
-  font-size: 11pt;
+  font-size: 12px;
   border: none;
 }
 
@@ -326,7 +326,7 @@ icone social e credenziali↓
 
 .credenziali a {
   font-family: 'Comfortaa';
-  font-size: 11pt;
+  font-size: 12px;
   font-weight: light;
   color: #111;
 }
@@ -377,7 +377,7 @@ contatti ↓
 
 #tooltip {
   font-family: 'Comfortaa';
-  font-size: 11pt;
+  font-size: 12px;
   font-weight: light;
   color: #111;
   position: relative;
