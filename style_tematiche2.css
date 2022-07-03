@@ -41,7 +41,7 @@ body {
   border: none;
   width: 50%;
   font-family: 'Montserrat';
-  font-size: 12pt;
+  font-size: 12px;
   font-weight: thin;
   color: #111;
 }
@@ -189,7 +189,7 @@ design del menu ↓
   position: relative;
   font-family: 'Comfortaa';
   font-weight: bold;
-  font-size: 14pt;
+  font-size: 14px;
   border: none;
 }
 
@@ -220,7 +220,7 @@ design del menu ↓
   position: relative;
   font-family: 'Montserrat';
   font-weight: thin;
-  font-size: 11pt;
+  font-size: 11px;
   border: none;
 }
 
