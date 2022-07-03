@@ -74,25 +74,179 @@ lightbox ↓ */
 galleria ↓ */
    
    $(document).ready(function(){
-   $(".balena").mouseover(function(){
-     $(".descrizione").css("opacity", "100%");
-     $(".descrizione").css("transition", "0.4s");
+   $(".altramareafoto").mouseover(function(){
+     $(".altramarea").css("opacity", "100%");
+     $(".altramarea").css("transition", "0.4s");
    });
-   $(".balena").mouseout(function(){
-     $(".descrizione").css("opacity", "0%");
-     $(".descrizione").css("transition", "0.4s");
+   $(".altramareafoto").mouseout(function(){
+     $(".altramarea").css("opacity", "0%");
+     $(".altramarea").css("transition", "0.4s");
    });
  });
    
-     $(document).ready(function(){
-   $(".occhiali").mouseover(function(){
-     $(".patate").css("opacity", "100%");
-     $(".patate").css("transition", "0.4s");
-   });
-   $(".occhiali").mouseout(function(){
-     $(".patate").css("opacity", "0%");
-     $(".patate").css("transition", "0.4s");
-   });
- });
+ $(document).ready(function(){
+  $(".cdfoto").mouseover(function(){
+    $(".cd").css("opacity", "100%");
+    $(".cd").css("transition", "0.4s");
+  });
+  $(".cdfoto").mouseout(function(){
+    $(".cd").css("opacity", "0%");
+    $(".cd").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".cdduefoto").mouseover(function(){
+    $(".cddue").css("opacity", "100%");
+    $(".cddue").css("transition", "0.4s");
+  });
+  $(".cdfoto").mouseout(function(){
+    $(".cddue").css("opacity", "0%");
+    $(".cddue").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".cuorefoto").mouseover(function(){
+    $(".cuore").css("opacity", "100%");
+    $(".cuore").css("transition", "0.4s");
+  });
+  $(".cuorefoto").mouseout(function(){
+    $(".cuore").css("opacity", "0%");
+    $(".cuore").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".killerfoto").mouseover(function(){
+    $(".killer").css("opacity", "100%");
+    $(".killer").css("transition", "0.4s");
+  });
+  $(".killerfoto").mouseout(function(){
+    $(".killer").css("opacity", "0%");
+    $(".killer").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".killerduefoto").mouseover(function(){
+    $(".killerdue").css("opacity", "100%");
+    $(".killerdue").css("transition", "0.4s");
+  });
+  $(".killerduefoto").mouseout(function(){
+    $(".killerdue").css("opacity", "0%");
+    $(".killerdue").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".neiwaifoto").mouseover(function(){
+    $(".neiwai").css("opacity", "100%");
+    $(".neiwai").css("transition", "0.4s");
+  });
+  $(".neiwaifoto").mouseout(function(){
+    $(".neiwai").css("opacity", "0%");
+    $(".neiwai").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".neiwaiduefoto").mouseover(function(){
+    $(".neiwaidue").css("opacity", "100%");
+    $(".neiwaidue").css("transition", "0.4s");
+  });
+  $(".neiwaiduefoto").mouseout(function(){
+    $(".neiwaidue").css("opacity", "0%");
+    $(".neiwaidue").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".rinascitafoto").mouseover(function(){
+    $(".rinascita").css("opacity", "100%");
+    $(".rinascita").css("transition", "0.4s");
+  });
+  $(".rinascitafoto").mouseout(function(){
+    $(".rinascita").css("opacity", "0%");
+    $(".rinascita").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".natalefoto").mouseover(function(){
+    $(".natale").css("opacity", "100%");
+    $(".natale").css("transition", "0.4s");
+  });
+  $(".natalefoto").mouseout(function(){
+    $(".natale").css("opacity", "0%");
+    $(".natale").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".pecorafoto").mouseover(function(){
+    $(".pecora").css("opacity", "100%");
+    $(".pecora").css("transition", "0.4s");
+  });
+  $(".pecorafoto").mouseout(function(){
+    $(".pecora").css("opacity", "0%");
+    $(".pecora").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".pecoraduefoto").mouseover(function(){
+    $(".pecoradue").css("opacity", "100%");
+    $(".pecoradue").css("transition", "0.4s");
+  });
+  $(".pecoraduefoto").mouseout(function(){
+    $(".pecoradue").css("opacity", "0%");
+    $(".pecoradue").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".partenopefoto").mouseover(function(){
+    $(".partenope").css("opacity", "100%");
+    $(".partenope").css("transition", "0.4s");
+  });
+  $(".partenope").mouseout(function(){
+    $(".partenope").css("opacity", "0%");
+    $(".partenope").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".lolafoto").mouseover(function(){
+    $(".lola").css("opacity", "100%");
+    $(".lola").css("transition", "0.4s");
+  });
+  $(".lolafoto").mouseout(function(){
+    $(".lola").css("opacity", "0%");
+    $(".lola").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".sartofoto").mouseover(function(){
+    $(".sarto").css("opacity", "100%");
+    $(".sarto").css("transition", "0.4s");
+  });
+  $(".sartofoto").mouseout(function(){
+    $(".sarto").css("opacity", "0%");
+    $(".sarto").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".fiorifoto").mouseover(function(){
+    $(".fiori").css("opacity", "100%");
+    $(".fiori").css("transition", "0.4s");
+  });
+  $(".fiorifoto").mouseout(function(){
+    $(".fiori").css("opacity", "0%");
+    $(".fiori").css("transition", "0.4s");
+  });
+});
    
  }
