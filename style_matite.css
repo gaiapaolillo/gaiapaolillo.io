@@ -33,7 +33,7 @@ body {
   padding-right: 4%;
   font-family: 'Corben';
   font-size: 18px;
-  color: #50a3ba;
+  color: #dd6258;
   border: none;
 }
 .autore2 {
@@ -54,13 +54,13 @@ body {
   border: none;
 }
 
-.inv_altramarea, .inv_cd, .inv_cddue, .inv_cuore, .inv_killer, .inv_killerdue, .inv_neiwai, .inv_neiwaidue, .inv_rinascita, .inv_natale, .inv_pecora, .inv_pecoradue, .inv_partenope, .inv_lola, .inv_sarto, .inv_fiori, .inv_guarracino, .inv_mitologia {
+.inv_serpenti, .inv_animali {
   width: 15%;
   position: fixed;
   bottom: 1%;
 }
 
-.altramarea, .cd, .cddue, .cuore, .killer, .killerdue, .neiwai, .neiwaidue, .rinascita, .natale, .pecora, .pecoradue, .partenope, .lola, .sarto, .fiori, .guarracino, .mitologia {
+.serpenti, .animali {
   border: none;
   width: 82%;
   padding-left: 18%;
@@ -73,7 +73,7 @@ body {
 h1 {
   font-family: 'Corben';
   font-size: 16px;
-  color: #50a3ba;
+  color: #dd6258;
 }
 
 .img_centrale {
@@ -185,7 +185,7 @@ design del menu ↓
 .btn {
   display: block;
   padding: 12px 0px;
-  color: #6ec3e2;
+  color: #ff887a;
   position: relative;
   font-family: 'Comfortaa';
   font-weight: bold;
@@ -254,7 +254,7 @@ label {
 }
 
 .label {
-  background-color: #50a3ba;
+  background-color: #dd6258;
   display: flex;
   position: relative;
   height: 26px;
@@ -274,7 +274,7 @@ label {
 }
 
 .ball {
-  background-color: #6ec3e2;
+  background-color: #ff887a;
   height: 18px;
   width: 18px;
   top: 4px;
@@ -319,7 +319,7 @@ body.dark .credenziali a {
 }
 
 body.dark .credenziali a:hover {
-  color: #50a3ba;
+  color: #dd6258;
 }
 
 body.dark .contatti {
@@ -342,12 +342,12 @@ icone social e credenziali↓
 
 .fa-instagram {
   padding-left: 2%;
-  color: #50a3ba;
+  color: #dd6258;
   font-size: 14pt;
 }
 
 .fa-facebook {
-  color: #50a3ba;
+  color: #dd6258;
   font-size: 14pt;
 }
 
@@ -373,7 +373,7 @@ hover ↓
 }
 
 .btn:hover {
-  color: #50a3ba;
+  color: #dd6258;
   text-decoration: underline;
 }
 
@@ -382,7 +382,7 @@ hover ↓
 }
 
 .credenziali a:hover {
-  color: #50a3ba;
+  color: #dd6258;
 }
 
 .fa-facebook:hover {
@@ -394,7 +394,7 @@ hover ↓
 }
 
 #tooltip:hover {
-  color: #50a3ba;
+  color: #dd6258;
 }
 
 /* hover ↑
@@ -417,7 +417,7 @@ contatti ↓
   left: 50%;
   top: 0;
   transform: translateX(-50%);
-  background-color: #50a3ba;
+  background-color: #dd6258;
   color: #fff;
   padding: 10px 15px;
   border-radius: 7px;
@@ -433,7 +433,7 @@ contatti ↓
   top: 100%;
   transform: translateX(-50%);
   border: 10px solid;
-  border-color: #50a3ba #50a3ba #50a3ba00 #50a3ba00;
+  border-color: #dd6258 #dd6258 #50a3ba00 #50a3ba00;
 }
 
 #tooltip:hover #tooltipText {
@@ -574,7 +574,7 @@ body.lb-disable-scrolling {
 }
 .lb-data { /*Qui cambio colore e famiglia testo*/
   padding:0 4px;
-  color:#6ec3e2;
+  color:#ff887a;
   font-family:'Comfortaa';
 }
 .lb-data .lb-details {

@@ -74,201 +74,25 @@ lightbox ↓ */
 galleria ↓ */
    
    $(document).ready(function(){
-   $(".altramareafoto").mouseover(function(){
-     $(".altramarea").css("opacity", "100%");
-     $(".altramarea").css("transition", "0.4s");
+   $(".animalifoto").mouseover(function(){
+     $(".animali").css("opacity", "100%");
+     $(".animali").css("transition", "0.4s");
    });
-   $(".altramareafoto").mouseout(function(){
-     $(".altramarea").css("opacity", "0%");
-     $(".altramarea").css("transition", "0.4s");
+   $(".animalifoto").mouseout(function(){
+     $(".animali").css("opacity", "0%");
+     $(".animali").css("transition", "0.4s");
    });
  });
    
  $(document).ready(function(){
-  $(".cdfoto").mouseover(function(){
-    $(".cd").css("opacity", "100%");
-    $(".cd").css("transition", "0.4s");
+  $(".serpentifoto").mouseover(function(){
+    $(".serpenti").css("opacity", "100%");
+    $(".serpenti").css("transition", "0.4s");
   });
-  $(".cdfoto").mouseout(function(){
-    $(".cd").css("opacity", "0%");
-    $(".cd").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".cdduefoto").mouseover(function(){
-    $(".cddue").css("opacity", "100%");
-    $(".cddue").css("transition", "0.4s");
-  });
-  $(".cdduefoto").mouseout(function(){
-    $(".cddue").css("opacity", "0%");
-    $(".cddue").css("transition", "0.4s");
+  $(".serpentifoto").mouseout(function(){
+    $(".serpenti").css("opacity", "0%");
+    $(".serpenti").css("transition", "0.4s");
   });
 });
 
-$(document).ready(function(){
-  $(".cuorefoto").mouseover(function(){
-    $(".cuore").css("opacity", "100%");
-    $(".cuore").css("transition", "0.4s");
-  });
-  $(".cuorefoto").mouseout(function(){
-    $(".cuore").css("opacity", "0%");
-    $(".cuore").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".killerfoto").mouseover(function(){
-    $(".killer").css("opacity", "100%");
-    $(".killer").css("transition", "0.4s");
-  });
-  $(".killerfoto").mouseout(function(){
-    $(".killer").css("opacity", "0%");
-    $(".killer").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".killerduefoto").mouseover(function(){
-    $(".killerdue").css("opacity", "100%");
-    $(".killerdue").css("transition", "0.4s");
-  });
-  $(".killerduefoto").mouseout(function(){
-    $(".killerdue").css("opacity", "0%");
-    $(".killerdue").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".neiwaifoto").mouseover(function(){
-    $(".neiwai").css("opacity", "100%");
-    $(".neiwai").css("transition", "0.4s");
-  });
-  $(".neiwaifoto").mouseout(function(){
-    $(".neiwai").css("opacity", "0%");
-    $(".neiwai").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".neiwaiduefoto").mouseover(function(){
-    $(".neiwaidue").css("opacity", "100%");
-    $(".neiwaidue").css("transition", "0.4s");
-  });
-  $(".neiwaiduefoto").mouseout(function(){
-    $(".neiwaidue").css("opacity", "0%");
-    $(".neiwaidue").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".rinascitafoto").mouseover(function(){
-    $(".rinascita").css("opacity", "100%");
-    $(".rinascita").css("transition", "0.4s");
-  });
-  $(".rinascitafoto").mouseout(function(){
-    $(".rinascita").css("opacity", "0%");
-    $(".rinascita").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".natalefoto").mouseover(function(){
-    $(".natale").css("opacity", "100%");
-    $(".natale").css("transition", "0.4s");
-  });
-  $(".natalefoto").mouseout(function(){
-    $(".natale").css("opacity", "0%");
-    $(".natale").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".pecorafoto").mouseover(function(){
-    $(".pecora").css("opacity", "100%");
-    $(".pecora").css("transition", "0.4s");
-  });
-  $(".pecorafoto").mouseout(function(){
-    $(".pecora").css("opacity", "0%");
-    $(".pecora").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".pecoraduefoto").mouseover(function(){
-    $(".pecoradue").css("opacity", "100%");
-    $(".pecoradue").css("transition", "0.4s");
-  });
-  $(".pecoraduefoto").mouseout(function(){
-    $(".pecoradue").css("opacity", "0%");
-    $(".pecoradue").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".partenopefoto").mouseover(function(){
-    $(".partenope").css("opacity", "100%");
-    $(".partenope").css("transition", "0.4s");
-  });
-  $(".partenopefoto").mouseout(function(){
-    $(".partenope").css("opacity", "0%");
-    $(".partenope").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".lolafoto").mouseover(function(){
-    $(".lola").css("opacity", "100%");
-    $(".lola").css("transition", "0.4s");
-  });
-  $(".lolafoto").mouseout(function(){
-    $(".lola").css("opacity", "0%");
-    $(".lola").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".sartofoto").mouseover(function(){
-    $(".sarto").css("opacity", "100%");
-    $(".sarto").css("transition", "0.4s");
-  });
-  $(".sartofoto").mouseout(function(){
-    $(".sarto").css("opacity", "0%");
-    $(".sarto").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".fiorifoto").mouseover(function(){
-    $(".fiori").css("opacity", "100%");
-    $(".fiori").css("transition", "0.4s");
-  });
-  $(".fiorifoto").mouseout(function(){
-    $(".fiori").css("opacity", "0%");
-    $(".fiori").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".guarracinofoto").mouseover(function(){
-    $(".guarracino").css("opacity", "100%");
-    $(".guarracino").css("transition", "0.4s");
-  });
-  $(".guarracinofoto").mouseout(function(){
-    $(".guarracino").css("opacity", "0%");
-    $(".guarracino").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".mitologiafoto").mouseover(function(){
-    $(".mitologia").css("opacity", "100%");
-    $(".mitologia").css("transition", "0.4s");
-  });
-  $(".mitologiafoto").mouseout(function(){
-    $(".mitologia").css("opacity", "0%");
-    $(".mitologia").css("transition", "0.4s");
-  });
-});
-   
  }
