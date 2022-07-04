@@ -74,36 +74,92 @@ lightbox ↓ */
 galleria ↓ */
    
    $(document).ready(function(){
-   $(".animalifoto").mouseover(function(){
-     $(".animali").css("opacity", "100%");
-     $(".animali").css("transition", "0.4s");
+   $(".draghessafoto").mouseover(function(){
+     $(".draghessa").css("opacity", "100%");
+     $(".draghessa").css("transition", "0.4s");
    });
-   $(".animalifoto").mouseout(function(){
-     $(".animali").css("opacity", "0%");
-     $(".animali").css("transition", "0.4s");
+   $(".draghessafoto").mouseout(function(){
+     $(".draghessa").css("opacity", "0%");
+     $(".draghessa").css("transition", "0.4s");
    });
  });
    
  $(document).ready(function(){
-  $(".serpentifoto").mouseover(function(){
-    $(".serpenti").css("opacity", "100%");
-    $(".serpenti").css("transition", "0.4s");
+  $(".occhiolinofoto").mouseover(function(){
+    $(".occhiolino").css("opacity", "100%");
+    $(".occhiolino").css("transition", "0.4s");
   });
-  $(".serpentifoto").mouseout(function(){
-    $(".serpenti").css("opacity", "0%");
-    $(".serpenti").css("transition", "0.4s");
+  $(".occhiolinofoto").mouseout(function(){
+    $(".occhiolino").css("opacity", "0%");
+    $(".occhiolino").css("transition", "0.4s");
   });
 });
 
 $(document).ready(function(){
-  $(".serpentiduefoto").mouseover(function(){
-    $(".serpentidue").css("opacity", "100%");
-    $(".serpentidue").css("transition", "0.4s");
+  $(".boommyfoto").mouseover(function(){
+    $(".boommy").css("opacity", "100%");
+    $(".boommy").css("transition", "0.4s");
   });
-  $(".serpentiduefoto").mouseout(function(){
-    $(".serpentidue").css("opacity", "0%");
-    $(".serpentidue").css("transition", "0.4s");
+  $(".boommyfoto").mouseout(function(){
+    $(".boommy").css("opacity", "0%");
+    $(".boommy").css("transition", "0.4s");
   });
 });
+
+$(document).ready(function(){
+  $(".milofoto").mouseover(function(){
+    $(".milo").css("opacity", "100%");
+    $(".milo").css("transition", "0.4s");
+  });
+  $(".milofoto").mouseout(function(){
+    $(".milo").css("opacity", "0%");
+    $(".milo").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".trollfoto").mouseover(function(){
+    $(".troll").css("opacity", "100%");
+    $(".troll").css("transition", "0.4s");
+  });
+  $(".trollfoto").mouseout(function(){
+    $(".troll").css("opacity", "0%");
+    $(".troll").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".trollduefoto").mouseover(function(){
+    $(".trolldue").css("opacity", "100%");
+    $(".trolldue").css("transition", "0.4s");
+  });
+  $(".trollduefoto").mouseout(function(){
+    $(".trolldue").css("opacity", "0%");
+    $(".trolldue").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".trolltrefoto").mouseover(function(){
+    $(".trolltre").css("opacity", "100%");
+    $(".trolltre").css("transition", "0.4s");
+  });
+  $(".trolltrefoto").mouseout(function(){
+    $(".trolltre").css("opacity", "0%");
+    $(".trolltre").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".trollquattrofoto").mouseover(function(){
+    $(".trollquattro").css("opacity", "100%");
+    $(".trolquattro").css("transition", "0.4s");
+  });
+  $(".trollquattrofoto").mouseout(function(){
+    $(".trollquattro").css("opacity", "0%");
+    $(".trollquattro").css("transition", "0.4s");
+  });
+});
+
 
  }
