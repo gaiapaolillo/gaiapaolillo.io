@@ -70,6 +70,10 @@ body {
   opacity: 0%;
 }
 
+.foto {
+opacity: 0%;
+}
+
 h1 {
   font-family: 'Corben';
   font-size: 16px;
