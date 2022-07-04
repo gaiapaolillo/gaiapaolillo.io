@@ -95,4 +95,15 @@ galleria ↓ */
   });
 });
 
+$(document).ready(function(){
+  $(".serpentiduefoto").mouseover(function(){
+    $(".serpentidue").css("opacity", "100%");
+    $(".serpentidue").css("transition", "0.4s");
+  });
+  $(".serpentiduefoto").mouseout(function(){
+    $(".serpentidue").css("opacity", "0%");
+    $(".serpentidue").css("transition", "0.4s");
+  });
+});
+
  }
