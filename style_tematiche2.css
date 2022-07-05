@@ -818,6 +818,7 @@ body.lb-disable-scrolling {
   }
   
   #tooltipText {
+    transform: translate(120px, -18px);
     width: 100px;
   }
   
