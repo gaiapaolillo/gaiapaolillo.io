@@ -779,6 +779,7 @@ body.lb-disable-scrolling {
     text-align: right;
     width: auto;
     padding-top: 0px;
+    visibility: hidden;
   }
 
   .autore2 {
@@ -786,6 +787,7 @@ body.lb-disable-scrolling {
     border: none;
     float: right;
     width: 50px;
+    visibility: hidden;
   }
 
   .middle {
