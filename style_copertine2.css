@@ -424,13 +424,6 @@ contatti ↓
 
 @media screen and (max-width: 1084px) {
 
-  .container .box {
-    flex-direction: column;
-  }
-  .container .box .dream {
-    width: 100%;
-  }
-
   .autore1 {
     font-size: 12px;
     line-height: 1.6;
