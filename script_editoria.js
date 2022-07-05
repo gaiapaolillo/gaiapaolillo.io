@@ -173,17 +173,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(".artunofoto").mouseover(function(){
-    $(".artuno").css("opacity", "100%");
-    $(".artuno").css("transition", "0.4s");
-  });
-  $(".artunofoto").mouseout(function(){
-    $(".artuno").css("opacity", "0%");
-    $(".artuno").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
   $(".artduefoto").mouseover(function(){
     $(".artdue").css("opacity", "100%");
     $(".artdue").css("transition", "0.4s");
@@ -213,6 +202,50 @@ $(document).ready(function(){
   $(".cervellofoto").mouseout(function(){
     $(".cervello").css("opacity", "0%");
     $(".cervello").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".scontornifoto").mouseover(function(){
+    $(".scontorni").css("opacity", "100%");
+    $(".scontorni").css("transition", "0.4s");
+  });
+  $(".scontornifoto").mouseout(function(){
+    $(".scontorni").css("opacity", "0%");
+    $(".scontorni").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".scontorniunofoto").mouseover(function(){
+    $(".scontorniuno").css("opacity", "100%");
+    $(".scontorniuno").css("transition", "0.4s");
+  });
+  $(".scontorniunofoto").mouseout(function(){
+    $(".scontorniuno").css("opacity", "0%");
+    $(".scontorniuno").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".scontorniduefoto").mouseover(function(){
+    $(".scontornidue").css("opacity", "100%");
+    $(".scontornidue").css("transition", "0.4s");
+  });
+  $(".scontorniduefoto").mouseout(function(){
+    $(".scontornidue").css("opacity", "0%");
+    $(".scontornidue").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".scontornitrefoto").mouseover(function(){
+    $(".scontornitre").css("opacity", "100%");
+    $(".scontornitre").css("transition", "0.4s");
+  });
+  $(".scontornitrefoto").mouseout(function(){
+    $(".scontornitre").css("opacity", "0%");
+    $(".scontornitre").css("transition", "0.4s");
   });
 });
 
