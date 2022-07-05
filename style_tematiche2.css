@@ -816,6 +816,15 @@ body.lb-disable-scrolling {
     background-color: #f9f9f9;
     margin-right: 0px;
   }
+
+  body.dark .colonna3_1 {
+    background-color: #111;
+  }
+
+  body.dark .colonna1 {
+    background-color: #111;
+  }
+  
   
   #tooltipText {
     transform: translate(90px, -18px);
