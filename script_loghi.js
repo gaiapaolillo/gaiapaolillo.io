@@ -74,92 +74,47 @@ lightbox ↓ */
 galleria ↓ */
    
    $(document).ready(function(){
-   $(".draghessafoto").mouseover(function(){
-     $(".draghessa").css("opacity", "100%");
-     $(".draghessa").css("transition", "0.4s");
+   $(".geekfoto").mouseover(function(){
+     $(".geek").css("opacity", "100%");
+     $(".geek").css("transition", "0.4s");
    });
-   $(".draghessafoto").mouseout(function(){
-     $(".draghessa").css("opacity", "0%");
-     $(".draghessa").css("transition", "0.4s");
+   $(".geekfoto").mouseout(function(){
+     $(".geek").css("opacity", "0%");
+     $(".geek").css("transition", "0.4s");
    });
  });
    
  $(document).ready(function(){
-  $(".occhiolinofoto").mouseover(function(){
-    $(".occhiolino").css("opacity", "100%");
-    $(".occhiolino").css("transition", "0.4s");
+  $(".geekduefoto").mouseover(function(){
+    $(".geekdue").css("opacity", "100%");
+    $(".geekdue").css("transition", "0.4s");
   });
-  $(".occhiolinofoto").mouseout(function(){
-    $(".occhiolino").css("opacity", "0%");
-    $(".occhiolino").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".boommyfoto").mouseover(function(){
-    $(".boommy").css("opacity", "100%");
-    $(".boommy").css("transition", "0.4s");
-  });
-  $(".boommyfoto").mouseout(function(){
-    $(".boommy").css("opacity", "0%");
-    $(".boommy").css("transition", "0.4s");
+  $(".geekduefoto").mouseout(function(){
+    $(".geekdue").css("opacity", "0%");
+    $(".geekdue").css("transition", "0.4s");
   });
 });
 
 $(document).ready(function(){
-  $(".milofoto").mouseover(function(){
-    $(".milo").css("opacity", "100%");
-    $(".milo").css("transition", "0.4s");
+  $(".revelumfoto").mouseover(function(){
+    $(".revelum").css("opacity", "100%");
+    $(".revelum").css("transition", "0.4s");
   });
-  $(".milofoto").mouseout(function(){
-    $(".milo").css("opacity", "0%");
-    $(".milo").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".trollfoto").mouseover(function(){
-    $(".troll").css("opacity", "100%");
-    $(".troll").css("transition", "0.4s");
-  });
-  $(".trollfoto").mouseout(function(){
-    $(".troll").css("opacity", "0%");
-    $(".troll").css("transition", "0.4s");
+  $(".revelumfoto").mouseout(function(){
+    $(".revelum").css("opacity", "0%");
+    $(".revelum").css("transition", "0.4s");
   });
 });
 
 $(document).ready(function(){
-  $(".trollduefoto").mouseover(function(){
-    $(".trolldue").css("opacity", "100%");
-    $(".trolldue").css("transition", "0.4s");
+  $(".lurvigfoto").mouseover(function(){
+    $(".lurvig").css("opacity", "100%");
+    $(".lurvig").css("transition", "0.4s");
   });
-  $(".trollduefoto").mouseout(function(){
-    $(".trolldue").css("opacity", "0%");
-    $(".trolldue").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".trolltrefoto").mouseover(function(){
-    $(".trolltre").css("opacity", "100%");
-    $(".trolltre").css("transition", "0.4s");
-  });
-  $(".trolltrefoto").mouseout(function(){
-    $(".trolltre").css("opacity", "0%");
-    $(".trolltre").css("transition", "0.4s");
+  $(".lurvigfoto").mouseout(function(){
+    $(".lurvig").css("opacity", "0%");
+    $(".lurvig").css("transition", "0.4s");
   });
 });
-
-$(document).ready(function(){
-  $(".trollquattrofoto").mouseover(function(){
-    $(".trollquattro").css("opacity", "100%");
-    $(".trolquattro").css("transition", "0.4s");
-  });
-  $(".trollquattrofoto").mouseout(function(){
-    $(".trollquattro").css("opacity", "0%");
-    $(".trollquattro").css("transition", "0.4s");
-  });
-});
-
 
  }
