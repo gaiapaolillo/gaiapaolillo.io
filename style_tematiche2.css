@@ -679,11 +679,13 @@ body.lb-disable-scrolling {
   .fa-bars {
     font-size: 20pt;
     padding-left: 0px;
+    color: #50a3ba;
   }
 
   .fa-xmark {
     font-size: 20pt;
     padding-left: 40px;
+    color: #50a3ba;
   }
 
   .invisibili {
