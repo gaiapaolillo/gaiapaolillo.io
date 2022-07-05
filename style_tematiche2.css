@@ -829,7 +829,14 @@ body.lb-disable-scrolling {
     background-color: #111;
   }
   
-  
+  body.dark .btn {
+    background-color: #111;
+  }
+
+  body.dark .smenu {
+    background-color: #111;
+  }
+
   #tooltipText {
     transform: translate(90px, -18px);
     width: 100px;
