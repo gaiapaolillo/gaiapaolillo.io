@@ -29,4 +29,19 @@ checkbox.addEventListener('change', () => {
 /* pulsante darkmode ↑
 --------------------------------
 */
+
+/* solo follia */
+
+$('#click_me').click(function(){
+  $('.item').css({
+    'visibility':'visible'
+  });
+});
+  
+  $('#click_meone').click(function(){
+  $('.item').css({
+    'visibility':'hidden'
+  });
+});
+  
 }
