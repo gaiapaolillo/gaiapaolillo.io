@@ -74,92 +74,146 @@ lightbox ↓ */
 galleria ↓ */
    
    $(document).ready(function(){
-   $(".draghessafoto").mouseover(function(){
-     $(".draghessa").css("opacity", "100%");
-     $(".draghessa").css("transition", "0.4s");
+   $(".invitofoto").mouseover(function(){
+     $(".invito").css("opacity", "100%");
+     $(".invito").css("transition", "0.4s");
    });
-   $(".draghessafoto").mouseout(function(){
-     $(".draghessa").css("opacity", "0%");
-     $(".draghessa").css("transition", "0.4s");
+   $(".invitofoto").mouseout(function(){
+     $(".invito").css("opacity", "0%");
+     $(".invitoa").css("transition", "0.4s");
    });
  });
    
  $(document).ready(function(){
-  $(".occhiolinofoto").mouseover(function(){
-    $(".occhiolino").css("opacity", "100%");
-    $(".occhiolino").css("transition", "0.4s");
+  $(".kirigamifoto").mouseover(function(){
+    $(".kirigamio").css("opacity", "100%");
+    $(".kirigamio").css("transition", "0.4s");
   });
-  $(".occhiolinofoto").mouseout(function(){
-    $(".occhiolino").css("opacity", "0%");
-    $(".occhiolino").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".boommyfoto").mouseover(function(){
-    $(".boommy").css("opacity", "100%");
-    $(".boommy").css("transition", "0.4s");
-  });
-  $(".boommyfoto").mouseout(function(){
-    $(".boommy").css("opacity", "0%");
-    $(".boommy").css("transition", "0.4s");
+  $(".kirigamifoto").mouseout(function(){
+    $(".kirigami").css("opacity", "0%");
+    $(".kirigamio").css("transition", "0.4s");
   });
 });
 
 $(document).ready(function(){
-  $(".milofoto").mouseover(function(){
-    $(".milo").css("opacity", "100%");
-    $(".milo").css("transition", "0.4s");
+  $(".colossofoto").mouseover(function(){
+    $(".colosso").css("opacity", "100%");
+    $(".colosso").css("transition", "0.4s");
   });
-  $(".milofoto").mouseout(function(){
-    $(".milo").css("opacity", "0%");
-    $(".milo").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".trollfoto").mouseover(function(){
-    $(".troll").css("opacity", "100%");
-    $(".troll").css("transition", "0.4s");
-  });
-  $(".trollfoto").mouseout(function(){
-    $(".troll").css("opacity", "0%");
-    $(".troll").css("transition", "0.4s");
+  $(".colossofoto").mouseout(function(){
+    $(".colosso").css("opacity", "0%");
+    $(".colosso").css("transition", "0.4s");
   });
 });
 
 $(document).ready(function(){
-  $(".trollduefoto").mouseover(function(){
-    $(".trolldue").css("opacity", "100%");
-    $(".trolldue").css("transition", "0.4s");
+  $(".franchifoto").mouseover(function(){
+    $(".franchi").css("opacity", "100%");
+    $(".franchi").css("transition", "0.4s");
   });
-  $(".trollduefoto").mouseout(function(){
-    $(".trolldue").css("opacity", "0%");
-    $(".trolldue").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".trolltrefoto").mouseover(function(){
-    $(".trolltre").css("opacity", "100%");
-    $(".trolltre").css("transition", "0.4s");
-  });
-  $(".trolltrefoto").mouseout(function(){
-    $(".trolltre").css("opacity", "0%");
-    $(".trolltre").css("transition", "0.4s");
+  $(".franchifoto").mouseout(function(){
+    $(".franchi").css("opacity", "0%");
+    $(".franchi").css("transition", "0.4s");
   });
 });
 
 $(document).ready(function(){
-  $(".trollquattrofoto").mouseover(function(){
-    $(".trollquattro").css("opacity", "100%");
-    $(".trolquattro").css("transition", "0.4s");
+  $(".birrafoto").mouseover(function(){
+    $(".birra").css("opacity", "100%");
+    $(".birra").css("transition", "0.4s");
   });
-  $(".trollquattrofoto").mouseout(function(){
-    $(".trollquattro").css("opacity", "0%");
-    $(".trollquattro").css("transition", "0.4s");
+  $(".birrafoto").mouseout(function(){
+    $(".birra").css("opacity", "0%");
+    $(".birra").css("transition", "0.4s");
   });
 });
 
+$(document).ready(function(){
+  $(".cittafoto").mouseover(function(){
+    $(".citta").css("opacity", "100%");
+    $(".citta").css("transition", "0.4s");
+  });
+  $(".cittafoto").mouseout(function(){
+    $(".citta").css("opacity", "0%");
+    $(".tcitta").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".orminofoto").mouseover(function(){
+    $(".ormino").css("opacity", "100%");
+    $(".ormino").css("transition", "0.4s");
+  });
+  $(".orminofoto").mouseout(function(){
+    $(".ormino").css("opacity", "0%");
+    $(".ormino").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".letteringfoto").mouseover(function(){
+    $(".lettering").css("opacity", "100%");
+    $(".lettering").css("transition", "0.4s");
+  });
+  $(".letteringfoto").mouseout(function(){
+    $(".lettering").css("opacity", "0%");
+    $(".lettering").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".artfoto").mouseover(function(){
+    $(".art").css("opacity", "100%");
+    $(".art").css("transition", "0.4s");
+  });
+  $(".artfoto").mouseout(function(){
+    $(".art").css("opacity", "0%");
+    $(".art").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".artunofoto").mouseover(function(){
+    $(".artuno").css("opacity", "100%");
+    $(".artuno").css("transition", "0.4s");
+  });
+  $(".artunofoto").mouseout(function(){
+    $(".artuno").css("opacity", "0%");
+    $(".artuno").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".artduefoto").mouseover(function(){
+    $(".artdue").css("opacity", "100%");
+    $(".artdue").css("transition", "0.4s");
+  });
+  $(".artduefoto").mouseout(function(){
+    $(".artdue").css("opacity", "0%");
+    $(".artdue").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".artrefoto").mouseover(function(){
+    $(".arttre").css("opacity", "100%");
+    $(".arttre").css("transition", "0.4s");
+  });
+  $(".arttrefoto").mouseout(function(){
+    $(".arttre").css("opacity", "0%");
+    $(".arttre").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".cervellofoto").mouseover(function(){
+    $(".cervello").css("opacity", "100%");
+    $(".cervello").css("transition", "0.4s");
+  });
+  $(".cervellofoto").mouseout(function(){
+    $(".cervello").css("opacity", "0%");
+    $(".cervello").css("transition", "0.4s");
+  });
+});
 
  }

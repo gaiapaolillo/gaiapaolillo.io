@@ -54,13 +54,13 @@ body {
   border: none;
 }
 
-.inv_draghessa, .inv_occhiolino, .inv_milo, .inv_boommy, .inv_troll, .inv_trolldue, .inv_trolltre, .inv_trollquattro  {
+.inv_invito, .inv_kirigami, .inv_colosso, .inv_franchi, .inv_birra, .inv_citta .inv_ormino, .inv_lettering, .inv_art, .inv_artuno, .inv_artdue, .inv_arttre, .inv_cervello {
   width: 15%;
   position: fixed;
   bottom: 1%;
 }
 
-.draghessa, .occhiolino, .milo, .boommy, .troll, .trolldue, .trolltre, .trollquattro {
+.invito, .kirigami, .colosso, .franchi, .birra, .citta .ormino, .lettering, .art, .artuno, .artdue, .arttre, .cervello {
   border: none;
   width: 82%;
   padding-left: 18%;
