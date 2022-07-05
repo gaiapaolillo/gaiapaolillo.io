@@ -54,13 +54,13 @@ body {
   border: none;
 }
 
-.inv_geek, .inv_geekdue, .inv_revelum, .inv_lurvig  {
+.inv_pino, .inv_pettine, .inv_birra, .inv_zitti  {
   width: 15%;
   position: fixed;
   bottom: 1%;
 }
 
-.geek, .geekdue, .revelum, .lurvig {
+.pino, .pettine, .birra, .zitti {
   border: none;
   width: 82%;
   padding-left: 18%;

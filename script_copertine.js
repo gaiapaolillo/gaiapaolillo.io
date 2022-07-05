@@ -74,46 +74,46 @@ lightbox ↓ */
 galleria ↓ */
    
    $(document).ready(function(){
-   $(".geekfoto").mouseover(function(){
-     $(".geek").css("opacity", "100%");
-     $(".geek").css("transition", "0.4s");
+   $(".pinofoto").mouseover(function(){
+     $(".pino").css("opacity", "100%");
+     $(".pino").css("transition", "0.4s");
    });
-   $(".geekfoto").mouseout(function(){
-     $(".geek").css("opacity", "0%");
-     $(".geek").css("transition", "0.4s");
+   $(".pinofoto").mouseout(function(){
+     $(".pino").css("opacity", "0%");
+     $(".pino").css("transition", "0.4s");
    });
  });
    
  $(document).ready(function(){
-  $(".geekduefoto").mouseover(function(){
-    $(".geekdue").css("opacity", "100%");
-    $(".geekdue").css("transition", "0.4s");
+  $(".pettinefoto").mouseover(function(){
+    $(".pettine").css("opacity", "100%");
+    $(".pettine").css("transition", "0.4s");
   });
-  $(".geekduefoto").mouseout(function(){
-    $(".geekdue").css("opacity", "0%");
-    $(".geekdue").css("transition", "0.4s");
-  });
-});
-
-$(document).ready(function(){
-  $(".revelumfoto").mouseover(function(){
-    $(".revelum").css("opacity", "100%");
-    $(".revelum").css("transition", "0.4s");
-  });
-  $(".revelumfoto").mouseout(function(){
-    $(".revelum").css("opacity", "0%");
-    $(".revelum").css("transition", "0.4s");
+  $(".pettinefoto").mouseout(function(){
+    $(".pettine").css("opacity", "0%");
+    $(".pettine").css("transition", "0.4s");
   });
 });
 
 $(document).ready(function(){
-  $(".lurvigfoto").mouseover(function(){
-    $(".lurvig").css("opacity", "100%");
-    $(".lurvig").css("transition", "0.4s");
+  $(".zittifoto").mouseover(function(){
+    $(".zitti").css("opacity", "100%");
+    $(".zitti").css("transition", "0.4s");
   });
-  $(".lurvigfoto").mouseout(function(){
-    $(".lurvig").css("opacity", "0%");
-    $(".lurvig").css("transition", "0.4s");
+  $(".zittifoto").mouseout(function(){
+    $(".zitti").css("opacity", "0%");
+    $(".zitti").css("transition", "0.4s");
+  });
+});
+
+$(document).ready(function(){
+  $(".birrafoto").mouseover(function(){
+    $(".birra").css("opacity", "100%");
+    $(".birra").css("transition", "0.4s");
+  });
+  $(".birrafoto").mouseout(function(){
+    $(".birra").css("opacity", "0%");
+    $(".birra").css("transition", "0.4s");
   });
 });
 
