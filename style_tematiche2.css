@@ -625,7 +625,7 @@ body.lb-disable-scrolling {
 
 /* Responsive ↓ */
 
-@media screen and (max-width: 1084px) {
+@media screen and (max-width: 1301px) {
 
   .container .box {
     flex-direction: column;
