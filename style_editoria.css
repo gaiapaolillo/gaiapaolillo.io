@@ -54,7 +54,7 @@ body {
   border: none;
 }
 
-.inv_invito, .inv_kirigami, .inv_colosso, .inv_franchi, .inv_birra, .inv_citta .inv_ormino, .inv_lettering, .inv_art, .inv_artdue, .inv_arttre, .inv_scontorni, .inv_scontorniuno, .inv_scontornidue, .inv_scontornitre, .inv_cervello {
+.inv_invito, .inv_kirigami, .inv_colosso, .inv_franchi, .inv_birra, .inv_citta, .inv_ormino, .inv_lettering, .inv_art, .inv_artdue, .inv_arttre, .inv_scontorni, .inv_scontorniuno, .inv_scontornidue, .inv_scontornitre, .inv_cervello {
   width: 15%;
   position: fixed;
   bottom: 1%;
